@@ -488,7 +488,7 @@ int main()
         int a;cin>>a;
         switch (a) {
             case 1: int n;cin>>n;node.insert(n);break;
-            case 2:Display(node.getRoot()->ptr[1]->ptr[2]);break;
+            case 2:Display(node.getRoot());break;
             default: flag=0;break;
 
         }
